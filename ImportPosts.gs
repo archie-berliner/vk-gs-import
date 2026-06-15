@@ -17,7 +17,7 @@ function importVKWall() {
   }
 
   var token   = config["VK_TOKEN"] || "";
-  var domain  = config["VK_DOMAIN"] || "staciangstsuccs";
+  var domain  = config["VK_DOMAIN"] || "";
 
   if (!token) {
     throw new Error("VK_TOKEN not found in Config sheet!");
